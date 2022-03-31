@@ -4,7 +4,7 @@ import 'package:shop_demo/models/Product.dart';
 
 class ItemCart extends StatelessWidget {
   final Product product;
-  final Function press;
+  final VoidCallback press;
 
   const ItemCart({
     required Key key,
@@ -16,7 +16,7 @@ class ItemCart extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // press(product);
+        press();
       },
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
