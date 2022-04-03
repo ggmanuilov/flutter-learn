@@ -1,16 +1,18 @@
 # shop_demo
 
-A new Flutter project.
+Online shop app. It's my pet project.
 
-## Getting Started
+## Getting Started 📖
 
-This project is a starting point for a Flutter application.
+- [Online Shop App - Flutter UI - Speed Code](https://youtu.be/XBKzpTz65Io)
 
-A few resources to get you started if this is your first Flutter project:
+## My Goal 🚀
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Learn basic API of Flatter
+- Make Start page
+- Adaptive page for vertical/horizontal view
+- Make Product page
+- Load info about product from api
+- Handle api exception
+- Make login/register
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials, samples, guidance on
-mobile development, and a full API reference.
