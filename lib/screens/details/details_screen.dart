@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_demo/constants.dart';
 import 'package:shop_demo/models/Product.dart';
+import 'package:shop_demo/screens/details/components/body.dart';
 
 class DetailsScreen extends StatelessWidget {
   final Product product;
@@ -19,14 +20,11 @@ class DetailsScreen extends StatelessWidget {
         backgroundColor: product.color,
         elevation: 0, // ???
         leading: IconButton(
-          icon: SvgPicture.asset(
-            'asserts/icons/back.svg',
-            color: Colors.white,
-          ),
           onPressed: () {
             // Go to back screen!
             Navigator.pop(context);
           },
+          icon: SvgPicture.asset("assets/icons/back.svg"),
         ),
         actions: <Widget>[
           IconButton(
@@ -40,6 +38,7 @@ class DetailsScreen extends StatelessWidget {
           )
         ],
       ),
+      body: Body(product: product,)
     );
   }
 }
